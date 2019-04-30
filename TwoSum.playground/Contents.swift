@@ -112,8 +112,4 @@
 //let isRight = "{[[[[((()))]]]]}" == r
 //print("result is :\(isRight)")
 
-protocol Validator {
-//    associatedtype I
-    func validate<I>(_ input: I) -> Bool
-}
 
